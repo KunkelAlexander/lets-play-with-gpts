@@ -1,14 +1,30 @@
-#  Let's play with GPTs.
+# Let's play with GPTs
 
-This repository experiments with GPTs. It was sparked by Andrej Karpathy's brilliant video: https://www.youtube.com/watch?v=kCc8FmEb1nY.
-![1_shakespeare.gif][1_shakespeare.gif]
+This repository experiments with GPT-style language models.
+It was sparked by Andrej Karpathy's brilliant video:
+https://www.youtube.com/watch?v=kCc8FmEb1nY
 
-## Repository
+<p align="center">
+  <img src="1_shakespeare.gif" width="700">
+</p>
 
-- `1_shakespeare.ipynb`: gradually implement a GPT from scratch following https://www.youtube.com/watch?v=kCc8FmEb1nY.
+## Repository contents
 
-![1_shakespeare.gif][1_shakespeare.gif]
+### 1. Shakespeare from scratch
 
-- `2_grokking.ipynb`: implement a model exhibiting Grokking
+- `1_shakespeare.ipynb`
+  Gradually implements a GPT from scratch following Karpathy’s video.
 
-![2_grokking.png](2_grokking.png)
+<p align="center">
+  <img src="1_shakespeare.gif" width="700">
+</p>
+
+
+### 2. Grokking in modular arithmetic
+
+- `2_grokking.ipynb`
+  Implements a small model that exhibits **grokking**: memorization followed by sudden generalization.
+
+<p align="center">
+  <img src="2_grokking.png" width="700">
+</p>
