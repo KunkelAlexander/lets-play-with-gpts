@@ -9,8 +9,9 @@ as well as the corresponding GitHub repositories
 
 - [nanoGPT](https://github.com/karpathy/nanoGPT) and [nanochat](https://github.com/karpathy/nanochat)
 
+
 <p align="center">
-  <img src="1_shakespeare.gif" width="700">
+  <img src="3_gpt.gif" width="700">
 </p>
 
 ## Repository contents
@@ -18,7 +19,7 @@ as well as the corresponding GitHub repositories
 ### 1. Shakespeare from scratch
 
 - `1_shakespeare.ipynb`
-  Gradually implements a GPT from scratch following Karpathy’s video.
+  Gradually implements a GPT from scratch following Karpathy’s video. The GPT is trained on the [Tiny Shakespeare](https://huggingface.co/datasets/karpathy/tiny_shakespeare) dataset. The following animation shows the output after one epoch of training:
 
 <p align="center">
   <img src="1_shakespeare.gif" width="700">
@@ -37,7 +38,7 @@ as well as the corresponding GitHub repositories
 ### 3. Train GPT2 from scratch
 
 - `3_gpt2.ipynb`
-  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 the model on [Lambda](lambda.ai) using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion).
+  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 model using a copy of the [nanoGPT](https://github.com/karpathy/nanoGPT) repository on [Lambda](lambda.ai) using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion). The following animation shows the output of the model after 5B tokens of training:
 
 
 <p align="center">
