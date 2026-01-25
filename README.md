@@ -4,9 +4,10 @@ This repository experiments with GPT-style language models.
 It was sparked by Andrej Karpathy's brilliant videos on GPTs:
 - [Let's build GPT: from scratch, in code, spelled out.](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
+
 as well as the corresponding GitHub repositories
-- [nanoGPT](https://github.com/karpathy/nanoGPT)
-- [nanochat](https://github.com/karpathy/nanochat)
+
+- [nanoGPT](https://github.com/karpathy/nanoGPT) and [nanochat](https://github.com/karpathy/nanochat)
 
 <p align="center">
   <img src="1_shakespeare.gif" width="700">
@@ -36,7 +37,7 @@ as well as the corresponding GitHub repositories
 ### 3. Train GPT2 from scratch
 
 - `3_gpt2.ipynb`
-  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 the model on (Lambda)[lambda.ai] using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion).
+  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 the model on [Lambda](lambda.ai) using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion).
 
 
 <p align="center">
