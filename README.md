@@ -38,7 +38,7 @@ as well as the corresponding GitHub repositories
 ### 3. Train GPT2 from scratch
 
 - `3_gpt2.ipynb`
-  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 model using a copy of the [nanoGPT](https://github.com/karpathy/nanoGPT) repository on [Lambda](lambda.ai) using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion). The following animation shows the output of the model after 5B tokens of training:
+  Implements the inference and training code for OpenAI's GPT2 model. I pre-trained the GPT2 model using a copy of the [nanoGPT](https://github.com/karpathy/nanoGPT) repository on [Lambda](lambda.ai) using 8 x A100 (40B) for ~2h on 5B tokens which, together with some smaller experiments, cost ~$30 in total (surprisingly cheap in my opinion). The following animation shows the output of the model after 5B tokens of training (with a maximum learning rate of 3x10e-4, 3 times the default value, as suggested by Andrej):
 
 
 <p align="center">
